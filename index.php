@@ -26,6 +26,8 @@ $conn = mysqli_connect('localhost', 'root', '', 'frontend') or die ("CONNECTION 
 
 $sql = "SELECT * FROM infodata WHERE status = 1";
 //status 1 means it will appear on front view but if the status is 0 then it wll hide from front view
+    
+    //Define status value in (Default) section in databse
 $result = mysqli_query($conn, $sql) or die("SQL ERROR");
 
 if(mysqli_num_rows($result) > 0){

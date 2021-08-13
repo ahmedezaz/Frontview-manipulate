@@ -53,3 +53,4 @@ if(mysqli_num_rows($result) > 0){
 
 
 <a href="status.php">Status update</a>
+<!--  We do not pass any value here cause we just wanted to update the status by clicking this to redirect to update sql page-->
